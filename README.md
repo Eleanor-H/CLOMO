@@ -6,8 +6,8 @@ For more details, please refer to the project page: https://clomo-logic.github.i
 
 [[Webpage](https://clomo-logic.github.io/)]
 [[Paper](https://arxiv.org/pdf/2311.17438.pdf)]
-[[Dataset]()]
-[[Examples]()]
+[[Dataset](https://github.com/Eleanor-H/CLOMO/tree/main/data)]
+[[Examples](https://clomo-logic.github.io/#examples)]
 
 
 ## About CLOMO
