@@ -1,0 +1,6 @@
+tqdm==4.65.0
+pandas==1.5.3
+openai==0.27.8
+transformers==4.37.0
+datasets==2.14.6
+fire==0.4.0

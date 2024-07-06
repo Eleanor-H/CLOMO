@@ -1,0 +1,184 @@
+[
+    {
+        "instruction": "In the following, you will see an argument and 2 premises, where Premise 1 provides a sufficient assumption to the Argument. Please modify the Statements in the Argument until Premise 2 provides a sufficient assumption to the Argument instead, while Premise 1 fails to provides a sufficient assumption to the Argument. Note that no additional statement should be added. ",
+        "input": "Argument: Statement1: Scientist : laboratory animals have access to ample food, and they get relatively little exercise. Statement2: These factors can skew the results of research using animals, since such studies often rely on the assumption that the animal subjects are healthy. Statement3: For instance, animal studies that purport to show that extreme caloric restriction can extend lifespans take for granted that their subjects were not overfed to begin with.\nPremise1: Laboratory conditions that provide animals with ample food but relatively little exercise can be unhealthy for the animals.\nPremise2: Laboratory animals are healthy if they are fed a carefully restricted diet and get plenty of exercise.\n\nPlease write the modified argument below: ",
+        "output": "Statement1: Scientist : laboratory animals have access to restricted food, and they get relatively plenty of exercise. Statement2: These factors can prove the results of research using animals, since such studies often rely on the assumption that the animal subjects are healthy. Statement3: For instance, animal studies that purport to show that extreme caloric restriction can extend lifespans take for granted that their subjects were not overfed to begin with.",
+        "qtype": 1,
+        "id_string": "train_4420",
+        "input_info": {
+            "Q": "The scientist's argument requires assuming which one of the following?",
+            "Om": "Premise2: Laboratory animals are healthy if they are fed a carefully restricted diet and get plenty of exercise.",
+            "O": "Premise1: Laboratory conditions that provide animals with ample food but relatively little exercise can be unhealthy for the animals.",
+            "P": "Statement1: Scientist : laboratory animals have access to ample food, and they get relatively little exercise. Statement2: These factors can skew the results of research using animals, since such studies often rely on the assumption that the animal subjects are healthy. Statement3: For instance, animal studies that purport to show that extreme caloric restriction can extend lifespans take for granted that their subjects were not overfed to begin with."
+        }
+    },
+    {
+        "instruction": "In the following, you will see an argument and 2 premises, where Premise 1 provides a sufficient assumption to the Argument. Please modify the Statements in the Argument until Premise 2 provides a sufficient assumption to the Argument instead, while Premise 1 fails to provides a sufficient assumption to the Argument. Note that no additional statement should be added. ",
+        "input": "Argument: Statement1: Many people believe that in every group of attorneys, there are only a small number of contemptible ones. Statement2: However, if being antagonistic is a contemptible quality, then all successful attorneys are contemptible. Statement3: Attorneys must be antagonistic in order to serve their clients well. Statement4: People who are overly friendly and always seek to be gracious and affable will never be successful attorneys.\nPremise1: Some overly friendly attorneys, who always seek to be gracious and affable, are successful.\nPremise2: Most attorneys are overly friendly and always seek to be gracious and affable.\n\nPlease write the modified argument below: ",
+        "output": "Statement1: Many people believe that in every group of attorneys, there are only a small number of contemptible ones. Statement2: However, if being antagonistic is a contemptible quality, then all successful attorneys are contemptible. Statement3: Attorneys must be antagonistic in order to serve their clients well. Statement4: So only a few of attorneys are overly friendly and always seek to be gracious and affable, and will be successful.",
+        "qtype": 1,
+        "id_string": "train_1219",
+        "input_info": {
+            "Q": "Assuming that the author's statements are accurate, which one of the following statements cannot be true?",
+            "Om": "Premise2: Most attorneys are overly friendly and always seek to be gracious and affable.",
+            "O": "Premise1: Some overly friendly attorneys, who always seek to be gracious and affable, are successful.",
+            "P": "Statement1: Many people believe that in every group of attorneys, there are only a small number of contemptible ones. Statement2: However, if being antagonistic is a contemptible quality, then all successful attorneys are contemptible. Statement3: Attorneys must be antagonistic in order to serve their clients well. Statement4: People who are overly friendly and always seek to be gracious and affable will never be successful attorneys."
+        }
+    },
+    {
+        "instruction": "In the following, you will see an argument and 2 premises, where Premise 1 provides a sufficient assumption to the Argument. Please modify the Statements in the Argument until Premise 2 provides a sufficient assumption to the Argument instead, while Premise 1 fails to provides a sufficient assumption to the Argument. Note that no additional statement should be added. ",
+        "input": "Argument: Statement1: A primate jawbone found in namibia in southern africa has been identified by anthropologists as that of an ape that lived between 10 million and 15 million years ago. Researchers generally agree that such ancient primates lived only in dense forests. Statement2: Consequently, the dry, treeless expanses now dominating the landscape in and around namibia must have replaced an earlier, heavily forested terrain.\nPremise1: The ape whose jawbone was found lived in or near the area that is now namibia.\nPremise2: There were no apes living in the area that is now namibia prior to 15 million years ago.\n\nPlease write the modified argument below: ",
+        "output": "Statement1: A primate jawbone found in namibia in southern africa has been identified by anthropologists as that of an ape that lived between 10 million and 15 million years ago. Researchers generally agree that such ancient primates lived only in dense forests. Statement3: Consequently, in the heavily forested expanses in that period of dominating the landscape in and around namibia, the ape may migrate from other place.",
+        "qtype": 1,
+        "id_string": "train_3013",
+        "input_info": {
+            "Q": "The argument assumes which one of the following?",
+            "Om": "Premise2: There were no apes living in the area that is now namibia prior to 15 million years ago.",
+            "O": "Premise1: The ape whose jawbone was found lived in or near the area that is now namibia.",
+            "P": "Statement1: A primate jawbone found in namibia in southern africa has been identified by anthropologists as that of an ape that lived between 10 million and 15 million years ago. Researchers generally agree that such ancient primates lived only in dense forests. Statement2: Consequently, the dry, treeless expanses now dominating the landscape in and around namibia must have replaced an earlier, heavily forested terrain."
+        }
+    },
+    {
+        "instruction": "In the following, you will see an argument and 2 premises, where Premise 1 provides a sufficient assumption to the Argument. Please modify the Statements in the Argument until Premise 2 provides a sufficient assumption to the Argument instead, while Premise 1 fails to provides a sufficient assumption to the Argument. Note that no additional statement should be added. ",
+        "input": "Argument: Statement1: Carol : the best choice for investment is real estate because the payout is huge. Even though the market can be a little unpredictable, it's the quickest way to turn a sizable profit. Statement2: Kenny : real estate is way too risky and people get huge sums of money tied up into one house that sometimes they can't sell or the value depreciates precipitously. It's much wiser to invest in dependable things like utilities or bonds.\nPremise1: Carol is more willing to take risks than kenny.\nPremise2: Carol is very risk averse.\n\nPlease write the modified argument below: ",
+        "output": "Statement1: Kenny: the best choice for investment is real estate because the payout is huge. Even though the market can be a little unpredictable, it's the quickest way to turn a sizable profit. Statement4: Carol : real estate is way risky and people get huge sums of money tied up into one house that sometimes they can't sell or the value depreciates precipitously. It's much wiser to invest in dependable things like utilities or bonds.",
+        "qtype": 1,
+        "id_string": "train_1259",
+        "input_info": {
+            "Q": "Based on the text above, which of the following can be assumed about carol and kenny's investment strategies?",
+            "Om": "Premise2: Carol is very risk averse.",
+            "O": "Premise1: Carol is more willing to take risks than kenny.",
+            "P": "Statement1: Carol : the best choice for investment is real estate because the payout is huge. Even though the market can be a little unpredictable, it's the quickest way to turn a sizable profit. Statement2: Kenny : real estate is way too risky and people get huge sums of money tied up into one house that sometimes they can't sell or the value depreciates precipitously. It's much wiser to invest in dependable things like utilities or bonds."
+        }
+    },
+    {
+        "instruction": "In the following, you will see an argument and 2 premises, where Premise 1 provides a sufficient assumption to the Argument. Please modify the Statements in the Argument until Premise 2 provides a sufficient assumption to the Argument instead, while Premise 1 fails to provides a sufficient assumption to the Argument. Note that no additional statement should be added. ",
+        "input": "Argument: Statement1: Editorialist : some people argue that we have an obligation not to cut down trees. Statement2: However, there can be no obligation to an entity unless that entity has a corresponding right. So if we have an obligation toward trees, then trees have rights. Statement3: But trees are not the sort of things that can have rights. Statement4: Therefore, we have no obligation not to cut down trees.\nPremise1: Avoiding cutting down trees is not an obligation owed to some entity other than trees.\nPremise2: Only conscious entities are the sort of things that can have rights.\n\nPlease write the modified argument below: ",
+        "output": "Statement1: Editorialist : some people argue that we have an obligation not to cut down trees. Statement2: However, there can be no obligation to an entity unless that entity has a corresponding right. Trees are an entity of cutting down trees. Statement4: But trees are not conscious. Statement5: Therefore, we have no obligation not to cut down trees.",
+        "qtype": 1,
+        "id_string": "train_3028",
+        "input_info": {
+            "Q": "The editorialist's argument depends on assuming which one of the following?",
+            "Om": "Premise2: Only conscious entities are the sort of things that can have rights.",
+            "O": "Premise1: Avoiding cutting down trees is not an obligation owed to some entity other than trees.",
+            "P": "Statement1: Editorialist : some people argue that we have an obligation not to cut down trees. Statement2: However, there can be no obligation to an entity unless that entity has a corresponding right. So if we have an obligation toward trees, then trees have rights. Statement3: But trees are not the sort of things that can have rights. Statement4: Therefore, we have no obligation not to cut down trees."
+        }
+    },
+    {
+        "instruction": "In the following, you will see an argument and 2 premises, where Premise 1 provides a sufficient assumption to the Argument. Please modify the Statements in the Argument until Premise 2 provides a sufficient assumption to the Argument instead, while Premise 1 fails to provides a sufficient assumption to the Argument. Note that no additional statement should be added. ",
+        "input": "Argument: Statement1: The chairperson of acme corporation has decided to move the company from its current location in milltown to ocean view. Statement2: Most acme employees can not afford housing within a 30-minute commute of ocean view. Statement3: So once the company has moved, most acme employees will have a commute of more than 30 minutes.\nPremise1: Acme's move to ocean view will not be accompanied by a significant pay raise for acme employees.\nPremise2: All acme employees can afford housing within a 30-minute commute of milltown.\n\nPlease write the modified argument below: ",
+        "output": "Statement1: The chairperson of acme corporation has decided to move the company from its current location in ocean view to milltown. Statement2: The housing rent in milltown is far more cheaper than that in ocean view within a 30-minute commute of milltown. Statement3: So once the company has moved, most acme employees will have a commute of less than 30 minutes.",
+        "qtype": 1,
+        "id_string": "train_2507",
+        "input_info": {
+            "Q": "The argument requires assuming which one of the following?",
+            "Om": "Premise2: All acme employees can afford housing within a 30-minute commute of milltown.",
+            "O": "Premise1: Acme's move to ocean view will not be accompanied by a significant pay raise for acme employees.",
+            "P": "Statement1: The chairperson of acme corporation has decided to move the company from its current location in milltown to ocean view. Statement2: Most acme employees can not afford housing within a 30-minute commute of ocean view. Statement3: So once the company has moved, most acme employees will have a commute of more than 30 minutes."
+        }
+    },
+    {
+        "instruction": "In the following, you will see an argument and 2 premises, where Premise 1 provides a sufficient assumption to the Argument. Please modify the Statements in the Argument until Premise 2 provides a sufficient assumption to the Argument instead, while Premise 1 fails to provides a sufficient assumption to the Argument. Note that no additional statement should be added. ",
+        "input": "Argument: Statement1: Scientific and technological discoveries have considerable effects on the development of any society. Statement2: It follows that predictions of the future condition of societies in which scientific and technological discovery is particularly frequent are particularly untrustworthy.\nPremise1: Forecasts of scientific and technological discoveries, or forecasts of their effects, are not entirely reliable.\nPremise2: The development of a society requires scientific and technological discoveries.\n\nPlease write the modified argument below: ",
+        "output": "Statement1: Scientific and technological discoveries have considerable good effects on the development of any society. Statement2: It follows that the more discovered a society is in science and technology, the more developed it is.",
+        "qtype": 1,
+        "id_string": "train_1715",
+        "input_info": {
+            "Q": "The argument depends on assuming which one of the following?",
+            "Om": "Premise2: The development of a society requires scientific and technological discoveries.",
+            "O": "Premise1: Forecasts of scientific and technological discoveries, or forecasts of their effects, are not entirely reliable.",
+            "P": "Statement1: Scientific and technological discoveries have considerable effects on the development of any society. Statement2: It follows that predictions of the future condition of societies in which scientific and technological discovery is particularly frequent are particularly untrustworthy."
+        }
+    },
+    {
+        "instruction": "In the following, you will see an argument and 2 premises, where Premise 1 provides a sufficient assumption to the Argument. Please modify the Statements in the Argument until Premise 2 provides a sufficient assumption to the Argument instead, while Premise 1 fails to provides a sufficient assumption to the Argument. Note that no additional statement should be added. ",
+        "input": "Argument: Statement1: Essayist : one of the claims of laissez-faire economics is that increasing the minimum wage reduces the total number of minimum-wage jobs available. Statement2: In a recent study, however, it was found that after an increase in the minimum wage, fast-food restaurants kept on roughly the same number of minimum-wage employees as before the increase. Statement3: Therefore, laissez-faire economics is not entirely accurate.\nPremise1: Minimum-wage job availability at fast-food restaurants included in the study was representative of minimum-wage job availability in general.\nPremise2: The national unemployment rate did not increase following the increase in the minimum wage.\n\nPlease write the modified argument below: ",
+        "output": "Statement1: Essayist : one of the claims of laissez-faire economics is that increasing the minimum wage reduces the total number of minimum-wage jobs available. Statement2: In a recent study, however, it was found that after an increase in the minimum wage, various industries of the nation kept on roughly the same number of minimum-wage employees as before the increase. Statement3: Therefore, laissez-faire economics is not accurate.",
+        "qtype": 1,
+        "id_string": "train_377",
+        "input_info": {
+            "Q": "The essayist's argument depends on assuming which one of the following?",
+            "Om": "Premise2: The national unemployment rate did not increase following the increase in the minimum wage.",
+            "O": "Premise1: Minimum-wage job availability at fast-food restaurants included in the study was representative of minimum-wage job availability in general.",
+            "P": "Statement1: Essayist : one of the claims of laissez-faire economics is that increasing the minimum wage reduces the total number of minimum-wage jobs available. Statement2: In a recent study, however, it was found that after an increase in the minimum wage, fast-food restaurants kept on roughly the same number of minimum-wage employees as before the increase. Statement3: Therefore, laissez-faire economics is not entirely accurate."
+        }
+    },
+    {
+        "instruction": "In the following, you will see an argument and 2 premises, where Premise 1 provides a sufficient assumption to the Argument. Please modify the Statements in the Argument until Premise 2 provides a sufficient assumption to the Argument instead, while Premise 1 fails to provides a sufficient assumption to the Argument. Note that no additional statement should be added. ",
+        "input": "Argument: Statement1: Deep tillage is even more deleterious to the world's topsoil supply than previously believed. For example, farmers who till deeply are ten times more likely to lose topsoil to erosion than are farmers who use no-till methods. Statement2: Results like these make it clear that farmers who now till deeply should strive, by using other topsoil aeration techniques, to incorporate no-till methods instead.\nPremise1: Tilling by any method other than deep tillage is not a viable option.\nPremise2: Topsoil erosion does not make farmers want to till more deeply.\n\nPlease write the modified argument below: ",
+        "output": "Statement1: Deep tillage to a large extent is even more deleterious to the world's topsoil supply than previously believed. For example, farmers who till very deeply are ten times more likely to lose topsoil to erosion than are farmers who use no-till methods. Statement3: Results like these make it clear that farmers who now till deeply should change the depth of their tillage to avoid excessive topsoil loss.",
+        "qtype": 1,
+        "id_string": "train_3932",
+        "input_info": {
+            "Q": "The argument depends on assuming which one of the following?",
+            "Om": "Premise2: Topsoil erosion does not make farmers want to till more deeply.",
+            "O": "Premise1: Tilling by any method other than deep tillage is not a viable option.",
+            "P": "Statement1: Deep tillage is even more deleterious to the world's topsoil supply than previously believed. For example, farmers who till deeply are ten times more likely to lose topsoil to erosion than are farmers who use no-till methods. Statement2: Results like these make it clear that farmers who now till deeply should strive, by using other topsoil aeration techniques, to incorporate no-till methods instead."
+        }
+    },
+    {
+        "instruction": "In the following, you will see an argument and 2 premises, where Premise 1 provides a sufficient assumption to the Argument. Please modify the Statements in the Argument until Premise 2 provides a sufficient assumption to the Argument instead, while Premise 1 fails to provides a sufficient assumption to the Argument. Note that no additional statement should be added. ",
+        "input": "Argument: Statement1: Critic : it has been argued that the real value of a product is not equal to the price people are willing to pay for it, on the grounds that this price often exceeds the cost of the labor required to create it, and the excess goes to the investor as an unjustifiably acquired profit. Statement2: But since the existence of the product is as dependent on the investor's initial capital outlay as on the laborer's toil, this argument is fallacious.\nPremise1: The real value of a product is not completely determined by the cost of the labor needed to bring the product into existence.\nPremise2: People who make the initial investment required to create a product have a right to a greater percentage of the receipts from its sale than do those whose contributions occur later.\n\nPlease write the modified argument below: ",
+        "output": "Statement1: Critic : it has been argued that the real value of a product is not equal to the price people are willing to pay for it, on the grounds that this price often exceeds the cost of the labor required to create it, and the excess big part goes to the investor as an unjustifiably acquired profit. Statement2: But since the investor's initial capital outlay is far more important than laborer's toil, this argument is fallacious.",
+        "qtype": 1,
+        "id_string": "train_373",
+        "input_info": {
+            "Q": "The critic's argument requires assuming which one of the following?",
+            "Om": "Premise2: People who make the initial investment required to create a product have a right to a greater percentage of the receipts from its sale than do those whose contributions occur later.",
+            "O": "Premise1: The real value of a product is not completely determined by the cost of the labor needed to bring the product into existence.",
+            "P": "Statement1: Critic : it has been argued that the real value of a product is not equal to the price people are willing to pay for it, on the grounds that this price often exceeds the cost of the labor required to create it, and the excess goes to the investor as an unjustifiably acquired profit. Statement2: But since the existence of the product is as dependent on the investor's initial capital outlay as on the laborer's toil, this argument is fallacious."
+        }
+    },
+    {
+        "instruction": "In the following, you will see an argument and 2 premises, where Premise 1 provides a sufficient assumption to the Argument. Please modify the Statements in the Argument until Premise 2 provides a sufficient assumption to the Argument instead, while Premise 1 fails to provides a sufficient assumption to the Argument. Note that no additional statement should be added. ",
+        "input": "Argument: Statement1: To cut costs, a high school modified its airconditioning system to increase its efficiency. The modified system, however, caused the humidity in the school air to decrease by 18 percent. Statement2: Twenty-four hours after the decrease in air humidity, a 25 percent increase in the number of visits to the school nurse was reported. Statement3: This shows that a decrease in humidity can make people ill.\nPremise1: At least some of the visits to the school nurse after the system was modified were due to illness.\nPremise2: It takes 24 hours after a person is infected with a virus for that person to exhibit symptoms.\n\nPlease write the modified argument below: ",
+        "output": "Statement1: To cut costs, a high school modified its airconditioning system to increase its efficiency. The modified system, however, caused the humidity in the school air to decrease by 18 percent and elevated levels of the virus in the air. Statement3: Four hours after the decrease in air humidity, a 25 percent increase in the number of visits to the school nurse was reported. Statement4: But this has nothing to do with the decrease in humidity, which is unlikely to causes the virus to act so quickly.",
+        "qtype": 1,
+        "id_string": "train_3832",
+        "input_info": {
+            "Q": "The argument depends on assuming which one of the following?",
+            "Om": "Premise2: It takes 24 hours after a person is infected with a virus for that person to exhibit symptoms.",
+            "O": "Premise1: At least some of the visits to the school nurse after the system was modified were due to illness.",
+            "P": "Statement1: To cut costs, a high school modified its airconditioning system to increase its efficiency. The modified system, however, caused the humidity in the school air to decrease by 18 percent. Statement2: Twenty-four hours after the decrease in air humidity, a 25 percent increase in the number of visits to the school nurse was reported. Statement3: This shows that a decrease in humidity can make people ill."
+        }
+    },
+    {
+        "instruction": "In the following, you will see an argument and 2 premises, where Premise 1 provides a sufficient assumption to the Argument. Please modify the Statements in the Argument until Premise 2 provides a sufficient assumption to the Argument instead, while Premise 1 fails to provides a sufficient assumption to the Argument. Note that no additional statement should be added. ",
+        "input": "Argument: Statement1: Proposed new safety rules for the beach city airport would lengthen considerably the minimum time between takeoffs from the airport. Statement2: In consequence, the airport would be able to accommodate 10 percent fewer flights than currently use the airport daily. The city 's operating budget depends heavily on taxes generated by tourist spending, and most of the tourists come by plane. Statement3: Therefore, the proposed new safety rules, if adopted, will reduce the revenue available for the operating budget.\nPremise1: The response to the adoption of the new safety rules would not include an increase in the number of passengers per flight.\nPremise2: If the proposed safety rules are adopted, the reduction in tourist numbers will not result mainly from a reduction in the number of tourists who spend relatively little in beach city.\n\nPlease write the modified argument below: ",
+        "output": "Statement1: Proposed new safety rules for the beach city airport would lengthen considerably the minimum time between takeoffs from the airport. Statement2: In consequence, the airport would be able to accommodate 10 percent fewer flights than currently use the airport daily, as a possible increase in the number of passengers per flight is considered. The city 's operating budget depends heavily on taxes generated by tourist spending, and most of the tourists who spend relatively more come by plane. Statement4: Therefore, the proposed new safety rules, if adopted, will reduce the revenue available for the operating budget.",
+        "qtype": 1,
+        "id_string": "train_1130",
+        "input_info": {
+            "Q": "The argument depends on assuming which of the following?",
+            "Om": "Premise2: If the proposed safety rules are adopted, the reduction in tourist numbers will not result mainly from a reduction in the number of tourists who spend relatively little in beach city.",
+            "O": "Premise1: The response to the adoption of the new safety rules would not include an increase in the number of passengers per flight.",
+            "P": "Statement1: Proposed new safety rules for the beach city airport would lengthen considerably the minimum time between takeoffs from the airport. Statement2: In consequence, the airport would be able to accommodate 10 percent fewer flights than currently use the airport daily. The city 's operating budget depends heavily on taxes generated by tourist spending, and most of the tourists come by plane. Statement3: Therefore, the proposed new safety rules, if adopted, will reduce the revenue available for the operating budget."
+        }
+    },
+    {
+        "instruction": "In the following, you will see an argument and 2 premises, where Premise 1 provides a sufficient assumption to the Argument. Please modify the Statements in the Argument until Premise 2 provides a sufficient assumption to the Argument instead, while Premise 1 fails to provides a sufficient assumption to the Argument. Note that no additional statement should be added. ",
+        "input": "Argument: Statement1: It is undeniable that regular consumption of fast food can lead to serious health problems. However, most people agree that fast food companies should not be held liable for the effects their product has on the health of consumers. Statement2: Few people, however, disagree with holding tobacco companies liable for the serious health problems caused by cigarette usage. Statement3: Therefore, fast food must not be as unhealthy as cigarettes.\nPremise1: That health concerns are the only reason people believe tobacco companies should be held liable\nPremise2: That the long-term health impact is the same for cigarettes as fast food\n\nPlease write the modified argument below: ",
+        "output": "Statement1: It is undeniable that regular consumption of fast food can lead to serious health problems. Therefore, most people agree that fast food companies should be held liable for the effects their product has on the health of consumers. Statement3: Few people, as well, disagree with holding tobacco companies liable for the serious health problems caused by cigarette usage. Statement4: Therefore, fast food must be as unhealthy as cigarettes.",
+        "qtype": 1,
+        "id_string": "train_4237",
+        "input_info": {
+            "Q": "Which one of the following is assumed in the passage?",
+            "Om": "Premise2: That the long-term health impact is the same for cigarettes as fast food",
+            "O": "Premise1: That health concerns are the only reason people believe tobacco companies should be held liable",
+            "P": "Statement1: It is undeniable that regular consumption of fast food can lead to serious health problems. However, most people agree that fast food companies should not be held liable for the effects their product has on the health of consumers. Statement2: Few people, however, disagree with holding tobacco companies liable for the serious health problems caused by cigarette usage. Statement3: Therefore, fast food must not be as unhealthy as cigarettes."
+        }
+    },
+    {
+        "instruction": "In the following, you will see an argument and 2 premises, where Premise 1 provides a sufficient assumption to the Argument. Please modify the Statements in the Argument until Premise 2 provides a sufficient assumption to the Argument instead, while Premise 1 fails to provides a sufficient assumption to the Argument. Note that no additional statement should be added. ",
+        "input": "Argument: Statement1: When a group of children who have been watching television programs that include acts of violence is sent to play with a group of children who have been watching programs that do not include acts of violence, the children who have been watching violent programs commit a much greater number of violent acts in their play than do the children who have been watching nonviolent programs. Statement2: Therefore, children at play can be prevented from committing violent acts by not being allowed to watch violence on television.\nPremise1: There are no other differences between the two groups of children that might account for the difference in violent behavior.\nPremise2: Violent actions and passive observation of violent actions are not related.\n\nPlease write the modified argument below: ",
+        "output": "Statement1: When a group of children who have been watching television programs that include acts of violence is sent to play with a group of children who have been watching programs that do not include acts of violence, the children who have been watching violent programs commit a close number of violent acts in their play than do the children who have been watching nonviolent programs. Statement2: Therefore, children at play can not be prevented from committing violent acts by not being allowed to watch violence on television.",
+        "qtype": 1,
+        "id_string": "train_3201",
+        "input_info": {
+            "Q": "The argument in the passage assumes which one of the following?",
+            "Om": "Premise2: Violent actions and passive observation of violent actions are not related.",
+            "O": "Premise1: There are no other differences between the two groups of children that might account for the difference in violent behavior.",
+            "P": "Statement1: When a group of children who have been watching television programs that include acts of violence is sent to play with a group of children who have been watching programs that do not include acts of violence, the children who have been watching violent programs commit a much greater number of violent acts in their play than do the children who have been watching nonviolent programs. Statement2: Therefore, children at play can be prevented from committing violent acts by not being allowed to watch violence on television."
+        }
+    }
+]

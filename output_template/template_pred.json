@@ -1,0 +1,28 @@
+[
+    {
+        "id_string": "train_4333",
+        "qtype": 3,
+        "pred_info": {
+            "pred_str": "Argument: Statement1: To reduce waste of raw materials, the government of sperland is considering requiring household appliances to be broken down for salvage when discarded. Imposing the fee at the time of salvage would reduce waste more effectively, however, because consumers tend to keep old appliances longer if they are faced with a fee for discarding them. Statement2: To cover the cost of salvage, the government is planning to charge a fee, which would be imposed when the appliance is first sold. Premise1: Increasing the cost of disposing of an appliance properly increases the incentive to dispose of it improperly. Premise2: Many nonfunctioning appliances that are currently discarded could be repaired at relatively little expense.  Let's think step by step."
+        },
+        "input_info": {
+            "Q": "Which of the following, if true, most seriously weakens the argument?",
+            "Om": "Premise2: Many nonfunctioning appliances that are currently discarded could be repaired at relatively little expense.",
+            "O": "Premise1: Increasing the cost of disposing of an appliance properly increases the incentive to dispose of it improperly.",
+            "P": "Statement1: To reduce waste of raw materials, the government of sperland is considering requiring household appliances to be broken down for salvage when discarded. Imposing the fee at the time of salvage would reduce waste more effectively, however, because consumers tend to keep old appliances longer if they are faced with a fee for discarding them. Statement2: To cover the cost of salvage, the government is planning to charge a fee, which would be imposed when the appliance is first sold."
+        }
+    },
+    {
+        "id_string": "train_3412",
+        "qtype": 0,
+        "pred_info": {
+            "pred_str": "Argument: Statement1: Anthropologist : it was formerly believed that prehistoric homo sapiens ancestors of contemporary humans interbred with neanderthals, but dna testing of a neanderthal's remains indicates that this is not the case. Statement2: The dna of contemporary humans is significantly different from that of the neanderthal. Premise1: The dna of prehistoric homo sapiens ancestors of contemporary humans was not significantly more similar to that of neanderthals than is the dna of contemporary humans. Premise2: Any similarity in the dna of two species must be the result of interbreeding.  Let's think step by step."
+        },
+        "input_info": {
+            "Q": "Which one of the following is an assumption required by the anthropologist's argument?",
+            "Om": "Premise2: Any similarity in the dna of two species must be the result of interbreeding.",
+            "O": "Premise1: The dna of prehistoric homo sapiens ancestors of contemporary humans was not significantly more similar to that of neanderthals than is the dna of contemporary humans.",
+            "P": "Statement1: Anthropologist : it was formerly believed that prehistoric homo sapiens ancestors of contemporary humans interbred with neanderthals, but dna testing of a neanderthal's remains indicates that this is not the case. Statement2: The dna of contemporary humans is significantly different from that of the neanderthal."
+        }
+    }
+]
